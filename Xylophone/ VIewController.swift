@@ -17,8 +17,6 @@ class ViewController: UIViewController,AVAudioPlayerDelegate{
         super.viewDidLoad()
     }
 
-
-
     @IBAction func notePressed(_ sender: UIButton) {
         //playSelectSound  =  soundArray[sender.tag-1]
         playSound(playSelectedSound: soundArray[sender.tag-1])
